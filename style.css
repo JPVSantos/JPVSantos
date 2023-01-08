@@ -1,12 +1,18 @@
 body {
-    padding: 0;
+    padding: 20px;
     margin: 0;
 
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #DDD;
-  }
+    /*background-image: url(photos/background.jpg);*/
+    background-color: #E6F4F1;
+    background-size: cover;
+}
 .navbar {
-    border-bottom: 1px solid #BBBBBB;
+  background-color: #E6F4F1;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
   }
 
   .nav-link {
@@ -14,7 +20,7 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #031D44;
+    color: #004043;
     padding: 20px 0px;
     margin: 0px 20px;
     display: inline-block;
@@ -31,7 +37,7 @@ body {
     height: 5px;
     content: "";
     position: absolute;
-    background-color: #031D44;
+    background-color: #004043;
   }
 
   .nav-link-ltr::before {
@@ -41,4 +47,355 @@ body {
 
   .nav-link-ltr:hover::before {
     width: 100%;
+  }
+
+.main{
+    text-decoration: underline 5px solid #A93900;
+}
+
+.about{
+    text-decoration: underline 5px solid #A93900;
+}
+
+.bg{
+    text-decoration: underline 5px solid #A93900;
+}
+
+.cars{
+    text-decoration: underline 5px solid #A93900;
+}
+
+.contact{
+    text-decoration: underline 5px solid #96474A;
+}
+
+.main-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius: 200px;
+  border: 10px solid #004043;
+  position: relative;
+}
+
+.title{
+  font-family: Integralcf,Arial,sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: #004043;
+  width: 1000px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 27%;
+  margin-top: 25px;
+  position: relative;
+
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #A93900;
+    text-align: left;
+    padding: 15px;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #019586;
+    text-align: left;
+    padding: 15px;
+    padding-top: 120px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #8EE4AF;
+    text-align: left;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p, li, .grid{
+    color: #004043;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-justify: distribute;
+
+}
+
+
+
+.chips{
+    padding: 10px;
+    margin: 5px;
+}
+
+.work{
+    padding: 10px;
+
+}
+
+.job{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #379683;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+.job-title{
+    text-decoration: dashed;
+}
+
+
+.job-desc{
+    font-family: serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,318px);
+    grid-template-rows: repeat(3,233px);
+    grid-gap: 50px 30px;
+}
+
+.grid-item{
+    border: thin gray solid;
+    padding: 25px;
+    font-size: 25px;
+
+}
+
+.grid img{
+    width: 250px;
+    height: 154.5px;
+}
+
+.car-img{
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 100%;
+}
+
+.car-list h3{
+  color: #019586;
+}
+
+.car-list a{
+  color:#004043;
+}
+
+.car-list a:visited{
+    color: #004043;
+}
+
+.car-list a:hover{
+    color:aqua;
+    transition: 1s;
+}
+
+
+fieldset{
+    text-align: center;
+    width: 527px;
+    height: 583px;
+    margin-top: 354px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #004043;
+    color: #004043;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+
+}
+
+legend{
+    text-align: left;
+    border: 3px solid #004043;
+    padding: 16px;
+    margin: 10px;
+    color: #A93900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+  }
+
+input{
+    padding: 1px;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+
+}
+
+
+input[type='radio']{
+    transform: scale(2);
+    display: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+textarea{
+    width: 300px;
+    height: 70px;
+}
+
+.checkbox{
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -253px;
+    width: 20px;
+
+}
+
+
+.checkbox label{
+    padding: 88px;
+    margin: -222px;
+}
+
+.form{
+    margin: 10px;
+    padding: 25px;
+}
+
+.button{
+    background-color: #05386B;
+    border: none;
+    color: #EDF5E1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 31px 2px;
+    cursor: pointer;
+}
+
+
+.input-job {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .row {
+    display: flex;
+  }
+  .row .col {
+    flex: 1;
+  }
+  .row .col:last-child {
+    margin-left: 1em;
+  }
+
+  /* Accordion styles */
+  .tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+
+  }
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background:  #004043  ;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* Icon */
+  }
+  .tab-label:hover {
+    background: #448572;
+  }
+  .tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    background: #E6F4F1;
+    transition: all 0.35s;
+  }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #448572;
+    cursor: pointer;
+  }
+  .tab-close:hover {
+    background: #448572;
+  }
+
+  input:checked + .tab-label {
+    background: rgba(68,133,114);
+  }
+  input:checked + .tab-label::after {
+    transform: rotate(90deg);
+  }
+  input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+
+  .experience-date{
+    width: 440px;
+  }
+
+  .experience-title{
+    width: 440px;
+    align-items:center;
+    display: flex;
+    margin-right: 117px;
+    justify-content:left;
+
+  }
+  .location{
+    width: 240px;
+  }
+
+  .experience-description{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .exp-list{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
   }
